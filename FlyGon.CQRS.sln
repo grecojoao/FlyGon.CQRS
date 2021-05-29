@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyGon.CQRS", "src\FlyGon.CQRS\FlyGon.CQRS.csproj", "{069C8130-A630-40BA-9B9D-E4D7938B6C89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyGon.CQRS.HowToUse", "samples\FlyGon.CQRS.HowToUse\FlyGon.CQRS.HowToUse.csproj", "{EF8234AC-0D1B-4294-87A7-8ECC620CD507}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{069C8130-A630-40BA-9B9D-E4D7938B6C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069C8130-A630-40BA-9B9D-E4D7938B6C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069C8130-A630-40BA-9B9D-E4D7938B6C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069C8130-A630-40BA-9B9D-E4D7938B6C89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF8234AC-0D1B-4294-87A7-8ECC620CD507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF8234AC-0D1B-4294-87A7-8ECC620CD507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF8234AC-0D1B-4294-87A7-8ECC620CD507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF8234AC-0D1B-4294-87A7-8ECC620CD507}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7A22C9E-CFF9-46A3-AC3C-F691E011BB81}
+	EndGlobalSection
+EndGlobal
