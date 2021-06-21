@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyGon.CQRS", "src\FlyGon.CQRS\FlyGon.CQRS.csproj", "{069C8130-A630-40BA-9B9D-E4D7938B6C89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyGon.CQRS.HowToUse", "samples\FlyGon.CQRS.HowToUse\FlyGon.CQRS.HowToUse.csproj", "{EF8234AC-0D1B-4294-87A7-8ECC620CD507}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyGon.CQRS.HowToUse", "samples\FlyGon.CQRS.HowToUse\FlyGon.CQRS.HowToUse.csproj", "{EF8234AC-0D1B-4294-87A7-8ECC620CD507}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
