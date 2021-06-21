@@ -1,6 +1,7 @@
 ﻿using FlyGon.CQRS.Commands;
 using FlyGon.CQRS.Handlers.Contracts;
 using FlyGon.Notifications;
+using FlyGon.Notifications.Validations;
 using System;
 using System.Collections.Generic;
 using System.Threading;
@@ -23,10 +24,10 @@ namespace FlyGon.CQRS.HowToUse
 
         public override void Validate()
         {
-            if (ValueOne == null)
-                AddNotification(new Notification("ValueOne", "Invalid value"));
-            if (ValueTwo == null)
-                AddNotification(new Notification("ValueTwo", "Invalid value"));
+            AddNotifications(
+                new ValidationContract()
+                .IsNotNull(ValueOne, "ValueOne", "Invalid value")
+                .IsNotNull(ValueTwo, "ValueTwo", "Invalid value"));
         }
     }
 

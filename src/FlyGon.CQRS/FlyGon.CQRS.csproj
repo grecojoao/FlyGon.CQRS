@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <PackageId>FlyGon.CQRS</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>João Greco</Authors>
     <Company>grecojoao</Company>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
     <RepositoryUrl>https://github.com/grecojoao/FlyGon.CQRS</RepositoryUrl>
     <Description>Easily use the CQRS design pattern.</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -16,10 +16,19 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/grecojoao/FlyGon.CQRS</PackageProjectUrl>
     <PackageTags>Domain;DDD;CQRS;FlyGon;FlyGon.CQRS</PackageTags>
+    <PackageReleaseNotes>Added documentation.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>obj\Debug\netstandard2.1\FlyGon.CQRS.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>obj\Release\netstandard2.1\FlyGon.CQRS.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FlyGon.Notifications" Version="1.0.0" />
+    <PackageReference Include="FlyGon.Notifications" Version="1.1.2" />
   </ItemGroup>
 
 </Project>
